@@ -1,41 +1,54 @@
-# flutter_cake_shop_app
+# 🍰 Cake Finder — Flutter App
 
-# 🍰 Flutter Cake Shop App (สายด่วนกินเค้ก)
-
-แอปพลิเคชันแนะนำร้านเค้กแสนอร่อยที่พัฒนาด้วย **Flutter** รวบรวมข้อมูลร้านเค้ก รูปภาพบรรยากาศ เวลาเปิด-ปิด และพิกัดแผนที่ พร้อมฟังก์ชันอำนวยความสะดวกอย่างการกดปุ่มโทรออก และเปิดลิงก์ไปยังโซเชียลมีเดียของร้านได้ทันที 
-
----
-
-## 📱 Screenshots (หน้าจอแอปพลิเคชัน)
-
-<div align="center">
-  <img width="300" alt="Cake Shop List" src="https://github.com/user-attachments/assets/ca4e900a-2c73-477a-949f-d4eb4a9f0a28" />
-  &nbsp;&nbsp;&nbsp;
-  <img width="300" alt="Cake Shop Detail 1" src="https://github.com/user-attachments/assets/9e13b9df-4cb4-4094-b89b-efff2a31c927" />
-  &nbsp;&nbsp;&nbsp;
-  <img width="300" alt="Cake Shop Detail 2" src="https://github.com/user-attachments/assets/71d76277-6bdc-4251-905c-cc405e146f74" />
-</div>
+แอปพลิเคชันสำหรับค้นหาและแนะนำร้านเค้กยอดนิยม  
+พัฒนาด้วย **Flutter** เน้นความสวยงาม ใช้งานง่าย และตอบโจทย์สายคาเฟ่
 
 ---
 
-## ✨ Features (ฟีเจอร์หลัก)
+## 🚀 Overview
 
-* **หน้ารายการร้านเค้ก:** แสดงรายชื่อร้านพร้อมรูปภาพหน้าปกแบบน่าทาน
-* **รายละเอียดร้านแบบครบถ้วน:** ดูรูปภาพเพิ่มเติม ชื่อร้าน เวลาเปิด-ปิด และคำอธิบาย
-* **📞 Direct Call:** กดปุ่มเพื่อโทรออกหาร้านได้ทันทีจากตัวแปรเบอร์โทรศัพท์
-* **🌐 Social Links:** กดเปิดเว็บไซต์และ Facebook ของร้านผ่านเบราว์เซอร์ของมือถือ
-* **🗺️ Interactive Map:** แสดงพิกัดร้านบนแผนที่จริง สามารถซูมเข้า-ออกได้
+Cake Finder ช่วยให้คุณค้นหาร้านเค้กได้ง่ายขึ้น พร้อมข้อมูลครบ:
+- รูปภาพร้าน
+- เวลาเปิด-ปิด
+- รายละเอียด
+- แผนที่
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ca4e900a-2c73-477a-949f-d4eb4a9f0a28" width="250"/>
+  <img src="https://github.com/user-attachments/assets/9e13b9df-4cb4-4094-b89b-efff2a31c927" width="250"/>
+  <img src="https://github.com/user-attachments/assets/71d76277-6bdc-4251-905c-cc405e146f74" width="250"/>
+</p>
 
 ---
 
-## 🛠️ Tech Stack & Dependencies (เทคโนโลยีที่ใช้)
+## ✨ Features
 
-โปรเจ็กต์นี้ใช้งาน Package ยอดนิยมของ Flutter เพื่อเพิ่มประสิทธิภาพให้กับแอป:
-
-* **[flutter_map](https://pub.dev/packages/flutter_map)** & **[latlong2](https://pub.dev/packages/latlong2)** - สำหรับดึงแผนที่ OpenStreetMap และปักหมุด (Marker) พิกัดร้าน
-* **[url_launcher](https://pub.dev/packages/url_launcher)** - สำหรับระบบกดโทรออก (Tel) และเปิดลิงก์เว็บไซต์ (URL)
-* **[google_fonts](https://pub.dev/packages/google_fonts)** - สำหรับจัดการฟอนต์ให้สวยงาม
-* **[carousel_slider](https://pub.dev/packages/carousel_slider)** - สำหรับทำสไลด์รูปภาพแบนเนอร์หรือแกลเลอรี
-* **[font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter)** & **[cupertino_icons](https://pub.dev/packages/cupertino_icons)** - สำหรับไอคอนตกแต่งแอป
+- 🍩 แสดงรายการร้านเค้กแบบ Card UI
+- 🧁 ดูรายละเอียดร้านครบถ้วน
+- 📞 กดโทรออกได้ทันที
+- 🌐 เปิดเว็บไซต์ / Facebook
+- 🗺️ แสดงแผนที่และตำแหน่งร้าน
 
 ---
+
+## 🧩 Tech Stack
+
+- Flutter
+- Dart
+- OpenStreetMap
+
+---
+
+## 📦 Packages
+
+```yaml
+flutter_map
+latlong2
+url_launcher
+google_fonts
+carousel_slider
+font_awesome_flutter
