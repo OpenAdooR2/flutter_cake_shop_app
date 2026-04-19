@@ -1,29 +1,31 @@
 name: flutter_cake_shop_app
 description: "A new Flutter project."
-publish_to: 'none' 
+
+
+
 version: 1.0.0+1
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
 
+
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
+  cupertino_icons: ^1.0.9  
   google_fonts: ^8.0.2
   font_awesome_flutter: ^11.0.0
   url_launcher: ^6.3.2
   flutter_map: ^8.2.2
   latlong2: ^0.9.1
   carousel_slider: ^5.1.2
-
-
+  flutter_lints: ^3.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
-  icons_launcher: ^3.1.0
+  icons_launcher: ^3.1.0  # <--- เช็กว่าบรรทัดนี้มีซ้ำที่อื่นไหม
 
+# 2. ส่วนของการตั้งค่า (ต้องอยู่ชิดขอบซ้ายสุด และมีได้แค่ที่เดียว)
 icons_launcher:
   image_path: "assets/icon/icon.png"
   platforms:
@@ -32,10 +34,9 @@ icons_launcher:
     ios:
       enable: true
 
+
 flutter:
   uses-material-design: true
   assets:
     - assets/images/
-    
-
-
+  
